@@ -94,7 +94,7 @@
 	})
 	window.onhashchange = function(){
 		const hash = window.location.hash.substr(2)||'all';
-		vm.filterStatus = hash;
+		vm.status = hash;
 	}
 	window.onhashchange();
 
